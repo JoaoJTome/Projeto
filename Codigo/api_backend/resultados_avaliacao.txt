@@ -1,0 +1,15 @@
+Avaliação offline do motor de recomendação (Dataset 1, 80/20, 5 divisões)
+
+Suporte | Confiança | Regras | Casos | HR@5 motor | HR@5 popularidade | Itens distintos recomendados
+0.01 | 0.2 | 243 | 1542 | 0.265 ± 0.009 | 0.265 ± 0.010 | 13.8
+0.005 | 0.2 | 929 | 1542 | 0.257 ± 0.008 | 0.265 ± 0.010 | 18.0
+0.005 | 0.1 | 1804 | 1542 | 0.223 ± 0.012 | 0.265 ± 0.010 | 39.2
+0.003 | 0.1 | 4755 | 1542 | 0.222 ± 0.013 | 0.265 ± 0.010 | 48.2
+
+Exemplos (suporte 0,01, confiança 0,2):
+  ['bottled water', 'soda', 'root vegetables'] sem histórico: ['other vegetables', 'whole milk', 'yogurt', 'rolls/buns', 'tropical fruit']
+  ['bottled water', 'soda', 'root vegetables'] com a lista Jantar (peso 1000): ['other vegetables', 'whole milk', 'rolls/buns', 'yogurt', 'tropical fruit']
+  ['whipped/sour cream'] sem histórico: ['other vegetables', 'whole milk', 'root vegetables', 'yogurt', 'rolls/buns']
+  ['whipped/sour cream'] com a lista Jantar (peso 1000): ['citrus fruit', 'other vegetables', 'tropical fruit', 'yogurt', 'whole milk']
+
+Tempo total: 215 s

@@ -1,0 +1,18 @@
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.29
+sqlalchemy>=2.0,<3.0
+bcrypt>=4.0,<5.0
+pydantic[email]>=2.6,<3.0
+pandas>=1.5,<2.3
+mlxtend>=0.22
+requests>=2.31
+
+# Backoffice (AppItensRecomendados.py, na pasta Codigo)
+streamlit>=1.30
+matplotlib>=3.7
+seaborn>=0.12
+
+# Nota sobre a versão do pandas: fixámos < 2.3 porque não confirmámos a
+# compatibilidade do mlxtend com o pandas 3.x neste momento. Se instalares
+# uma versão mais recente e tudo continuar a funcionar, este limite pode
+# ser relaxado.

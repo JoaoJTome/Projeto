@@ -1,0 +1,24 @@
+name: mercado_app
+description: >
+  Aplicação mobile de listas de compras com recomendações, para o projeto
+  "Análise de Cesto de Compras". Consome a API FastAPI já existente
+  (api_backend/) descrita em Aplicacao_Mobile.docx e
+  Arquitetura_Geral_Sistema.md.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  shared_preferences: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

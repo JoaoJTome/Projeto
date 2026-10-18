@@ -1,0 +1,5 @@
+dados;suporte_min;itens_frequentes;pares_candidatos;conjuntos;regras;conjuntos_iguais;regras_iguais;apriori_s;apriori_pico_mb;apriori_low_memory_s;apriori_low_memory_pico_mb;fpgrowth_s;fpgrowth_pico_mb
+xlsx (limpeza completa, sem códigos não-produto);0,03;94;4371;96;3;True;True;0.979;258;0,232;14;2,22;2196
+xlsx (limpeza completa, sem códigos não-produto);0,02;245;29890;272;31;True;True;5.713;1760;0,337;14;3,797;2196
+xlsx (limpeza completa, sem códigos não-produto);0,015;423;89253;529;91;True;True;16.707;5254;0,758;14;8,466;2196
+xlsx (limpeza completa, sem códigos não-produto);0,01;725;262450;1131;263;True;True;não executado;~10.1 GB estimados;0,887;15;22,099;2196
