@@ -1,7 +1,0 @@
-suporte_min;max_len;conjuntos;regras;conjuntos_iguais;regras_iguais;apriori_mediana_s;apriori_dp_s;fpgrowth_mediana_s;fpgrowth_dp_s;fpgrowth_sobre_apriori
-0,02;2;120;43;True;True;0,0653;0,0004;1,1797;0,022;18,1
-0,01;2;301;96;True;True;0,143;0,0016;3,964;0,1126;27,7
-0,005;2;725;161;True;True;0,2569;0,0078;11,139;0,57;43,4
-0,02;sem limite;122;49;True;True;0,0895;0,0012;1,3011;0,0591;14,5
-0,01;sem limite;333;170;True;True;0,3379;0,0233;5,1241;0,3408;15,2
-0,005;sem limite;1001;673;True;True;1,009;0,0832;17,2563;0,3632;17,1
